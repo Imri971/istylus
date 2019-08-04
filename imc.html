@@ -1,0 +1,161 @@
+﻿<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	 
+<title>Indice de Masse Corporelle Stylus</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/fontello.css" >
+<!-- Custom Media-Queties -->
+<link rel="stylesheet" href="css/media-queries.css" />
+</head>
+
+<body >
+    <header>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ml-auto">
+            <a class="navbar-brand mr-auto" href="index.html"><img src="img/istyluslogo.png" alt="Logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html" >iSTYLUS<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="biographie.html" >À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#services" >Services</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="entraineurs.html" >Coachs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" >Contact</a>
+                </li>
+                </ul>
+            </div>
+            </nav>
+        
+            <div class="header-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6"><h1>Indice de masse corporelle</h1></div>
+                            <div class="col-sm-6 breadcrumbs"><a href="index.html">Accueil</a><span></span><a href="index.html#services">Services</a><span></span><a href="imc.html">IMC</a></div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+
+<div class="container col-lg-8 col-md-12 col-sm-12">
+    <form name="imc">
+        <h1 class="page_title text-center">Votre Indice de Masse Corporelle</h1>
+        <p align="center" ><strong>Pour estimer votre IMC, entrez votre taille et votre poids. Sachez qu'il faut utiliser un "." à la place de la virgule <hr> </strong></p>
+
+        <table border="0" style="margin: auto;">
+            <tr>
+                <td><strong>Votre taille:</strong></td>
+                <td style="text-align: right;"><strong><input type="text" style="text-align: right; "  name="taille" value=" " onfocus="indiceclear()" size="3"> m </strong></td>
+            </tr>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td><strong>Votre poids :</strong> </td>
+                <td style="text-align: right;" ><strong><input type="text" style="text-align: right; " name="poids" value=" " onfocus="indiceclear()" size="3">kg</strong></td>
+            </tr>
+
+            <tr>
+            <td colspan="2">&nbsp; <hr> </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;" > <input type="button" name="Button1" value="Calculer" class="btn btn-primary" onclick="imccalculate()">
+                    <input type="button" name="Button1" value="Effacer" class="btn btn-primary" onclick="indiceclear(this.form)"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+
+            <tr> 
+                <td><strong>  Votre IMC est: </strong> </td>
+                <td><strong><input type="text" style="border: none; text-align: left;"  name="indice" value=" " size="5"></strong> </td>
+            </tr>
+        </table>
+
+    </form>
+</div>
+
+    <footer>
+
+    <div class="footer-top">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-sm-6 col-md-4 col-lg-4">
+                        <h2>Contact</h2>
+                        <ul class="foot-contact">
+                            <li><i class="icon-location"></i>Lycée Marie Curie</li>
+                            <li><i class="icon-mobile"></i> Nogent-sur-oise</li>
+                            <li><i class="icon-mail"></i><a href="#">iSTYLUS@hotmail.com</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4">
+                        <h2>Liens</h2>
+                        <ul class="list-links">
+                            <li><i class="icon-right-open"></i><a href="musculation.html">Commence l'entrainement</a></li>
+                            <li><i class="icon-right-open"></i><a href="entraineurs.html">Découvre les coachs</a></li>
+                            <li><i class="icon-right-open"></i><a href="imc.html">As-tu le poids idéal?</a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix visible-xs visible-sm"></div>
+                    
+                    
+                    <div class="col-sm-6 col-md-4 col-lg-4 text-center">
+                        <h2>Réseaux Sociaux</h2>
+                        <p>Suivez nous sur les réseaux sociaux</p>
+                        <ul class="social">
+                            <li><a href="#" class="facebook"><i class="icon-facebook"></i></a>	</li><li>
+                                <a href="#" class="twitter"><i class="icon-twitter"></i></a>	</li><li>
+                                <a href="#" class="pinterest"><i class="icon-pinterest"></i></a>	</li><li>
+                                <a href="#" class="linkedin"><i class="icon-linkedin"></i></a>	</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    
+    <div class="footer-bottom d-flex align-items-center">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4 copy"><p>Par Imri BALOURD</p></div>
+            <div class="col-md-8 footmenu">
+                <ul>	
+                <li ><a href="index.html" >Accueil</a><div></div></li>
+                <li ><a href="biograhie.html" >À propos</a><div></div></li>
+                <li ><a href="index.html#services" >Services</a><div></div></li>
+                <li ><a href="entraineurs.html">Coachs</a><div></div></li>
+                <li ><a href="contact.html" >Contact</a><div></div></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

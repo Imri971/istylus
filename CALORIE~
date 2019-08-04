@@ -1,0 +1,811 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK REL="SHORTCUT ICON" HREF="http://muscul.az.free.fr/favico.ico">
+<title>STYLUS 
+Calcul des dépenses en calories pendant la pratique sportive </title>
+<meta name="Description" content="Calcul des depenses caloriques en fonction de l'activité pratiquee.">
+<meta name="Keywords" content="calories,depenses,effort,maigrir,calculer,graisses,maigrir,eliminer,consommer,velo,bicyclette,courrir,course,jogging,">
+
+
+<meta name="author" content="ISN" >
+<meta name="generator" content="Bluefish 2.2.5" >
+
+<!-- ??????? -->
+<script language="JavaScript"></script>
+</script>
+
+</style>
+<script language="JavaScript">
+
+</script>
+<!-- Fin menu -->
+
+
+
+
+<!-- Style8 -->
+  <style type="text/css">
+A.menulink8 {
+width: 135px;
+text-decoration:none;
+font-family:Arial;
+font style: bold;
+font-color:black;
+font-size:11px;
+BORDER: none;
+
+}
+
+A.menulink8:hover {
+border: solid 1px #CE3423;
+background-color:#C4F4C7;
+}
+  </style>
+
+<!-- Fin style8 -->
+
+
+<script type="text/javascript" src="http://fr.clickintext.net/?v=3.0&a=1469&s[c]=AA3838&s[co]=FFAA00&t[cit]=1&n=3"></script>
+
+</head>
+<BODY BGCOLOR="#11449E" TEXT="#F9ECEC" background="http://blog.1sport1coach.com/wp-content/uploads/2015/04/running-piste-athletisme.jpg" alink="#0E8F12" link="#FB042F" vlink="#B83B05" leftmargin="0" topmargin="0">
+
+<table border="0" align="center" width="100%" >
+	<tr>
+  <TD bgcolor="#FFFFFF"></TD>
+  <TD bgcolor="#FFFFFF">
+  <!-- Google -->
+  
+<div style="text-align: center">
+
+<script type="text/javascript"><!--
+
+
+google_color_border = "FFFFFF";
+google_color_link = "CC0000";
+google_color_bg = "FFFFFF";
+google_color_text = "000000";
+google_color_url = "11593C";
+//--></script>
+
+</script>
+
+</div>
+
+  
+  
+
+<table border="2" align="center">
+	<tr>
+		<td>
+		<script type="text/javascript"><!--
+google_ad_client = "pub-0506039216021034";
+/* anat08 */
+google_ad_slot = "5903162830";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+
+</script>
+		</td>
+	</tr>
+</table>
+
+
+</ul>
+		
+		
+		<!-- Fin menu diététique-->
+		
+		<!--  + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + -->
+		
+		
+		<td valign="top">
+		<!-- Article -->
+
+
+<script language="JavaScript">
+
+function calcul(weight,minutes,scalefactor)
+
+{
+
+calories=(Math.round(weight*minutes*scalefactor));
+return calories;
+
+}
+
+function compute(form)
+
+{
+
+var w=form.weight.value*2.204
+var m=form.minutes.value*1
+
+
+form.marche.value=calcul(w,m,0.0188)
+form.marcheF.value=calcul(w,m,0.0178)
+form.marche1.value=calcul(w,m,0.0292)
+form.marche1F.value=calcul(w,m,0.0277)
+form.jogging.value=calcul(w,m,0.0786)
+form.joggingF.value=calcul(w,m,0.075)
+form.jogging1.value=calcul(w,m,0.0968)
+form.jogging1F.value=calcul(w,m,0.0924)
+form.jogging2.value=calcul(w,m,0.11495)
+form.jogging2F.value=calcul(w,m,0.1097)
+form.jogging3.value=calcul(w,m,0.2238)
+form.jogging3F.value=calcul(w,m,0.2136)
+form.stepper.value=calcul(w,m,0.0236)
+form.stepperF.value=calcul(w,m,0.0165)
+form.stepper1.value=calcul(w,m,0.0605)
+form.stepper1F.value=calcul(w,m,0.0577)
+form.velo.value=calcul(w,m,0.0399)
+form.veloF.value=calcul(w,m,0.038)
+form.velo1.value=calcul(w,m,0.04175)
+form.velo1F.value=calcul(w,m,0.0398)
+form.aerobic.value=calcul(w,m,0.088)
+form.aerobicF.value=calcul(w,m,0.0867)
+form.natation.value=calcul(w,m,0.04085)
+form.natationF.value=calcul(w,m,0.0388)
+form.natation1.value=calcul(w,m,0.121)
+form.natation1F.value=calcul(w,m,0.1154)
+form.ski.value=calcul(w,m,0.0544)
+form.skiF.value=calcul(w,m,0.0519)
+form.tennis.value=calcul(w,m,0.050)
+form.tennisF.value=calcul(w,m,0.0476)
+form.alpinisme.value=calcul(w,m,0.0605)
+form.alpinismeF.value=calcul(w,m,0.0577)
+form.basketball.value=calcul(w,m,0.063)
+form.basketballF.value=calcul(w,m,0.0603)
+form.danse.value=calcul(w,m,0.0343)
+form.danseF.value=calcul(w,m,0.0327)
+form.lutte.value=calcul(w,m,0.0786)
+form.lutteF.value=calcul(w,m,0.075)
+form.couper.value=calcul(w,m,0.0484)
+form.couperF.value=calcul(w,m,0.0462)
+form.bowling.value=calcul(w,m,0.021)
+form.bowlingF.value=calcul(w,m,0.0178)
+form.musculation.value=calcul(w,m,0.041)
+form.musculationF.value=calcul(w,m,0.030)
+form.pingpong.value=calcul(w,m,0.0348)
+form.pingpongF.value=calcul(w,m,0.0331)
+form.aviron.value=calcul(w,m,0.0968)
+form.avironF.value=calcul(w,m,0.0924)
+form.football.value=calcul(w,m,0.0968)
+form.footballF.value=calcul(w,m,0.0924)
+form.course.value=calcul(w,m,0.028)
+form.courseF.value=calcul(w,m,0.0251)
+form.assis.value=calcul(w,m,0.009)
+form.assisF.value=calcul(w,m,0.0084)
+form.sommeil.value=calcul(w,m,0.00705)
+form.sommeilF.value=calcul(w,m,0.006702)   
+form.bureau.value=calcul(w,m,0.0106)
+form.bureauF.value=calcul(w,m,0.01)
+form.conduire.value=calcul(w,m,0.0141)
+form.conduireF.value=calcul(w,m,0.0134)
+form.bricolage.value=calcul(w,m,0.0218)
+form.bricolageF.value=calcul(w,m,0.0207)
+
+}
+
+function clearvalues(form)
+
+{
+
+form.weight.value= 0
+form.minutes.value=60
+
+form.marche.value=""
+form.marcheF.value=""
+form.marche1.value=""
+form.marche1F.value=""
+form.jogging.value=""
+form.joggingF.value=""   
+form.jogging1.value=""
+form.jogging1F.value=""
+form.jogging2.value=""
+form.jogging2F.value=""
+form.jogging3.value=""
+form.jogging3F.value=""
+form.stepper.value=""
+form.stepperF.value=""
+form.stepper1.value=""
+form.stepper1F.value=""
+form.velo.value=""
+form.veloF.value=""
+form.velo1.value=""
+form.velo1F.value=""
+form.aerobic.value=""
+form.aerobicF.value=""
+form.natation.value=""
+form.natationF.value=""
+form.natation1.value=""
+form.natation1F.value=""
+form.ski.value=""
+form.skiF.value=""
+form.tennis.value=""
+form.tennisF.value=""
+form.alpinisme.value=""
+form.alpinismeF.value=""
+form.basketball.value=""
+form.basketballF.value=""
+form.danse.value=""
+form.danseF.value=""
+form.lutte.value=""
+form.lutteF.value=""
+form.couper.value=""
+form.couperF.value=""
+form.bowling.value=""
+form.bowlingF.value=""
+form.musculation.value=""
+form.musculationF.value=""
+form.pingpong.value=""
+form.pingpongF.value=""
+form.aviron.value=""
+form.avironF.value=""
+form.football.value=""
+form.footballF.value=""
+form.course.value=""
+form.courseF.value=""
+form.assis.value=""
+form.assisF.value=""
+form.sommeil.value=""
+form.sommeilF.value=""
+form.bureau.value=""
+form.bureauF.value=""
+form.conduire.value=""
+form.conduireF.value=""
+form.bricolage.value=""
+form.bricolageF.value=""
+
+}
+
+</script>
+<h2><div align="center">CALCUL DE DEPENSES CALORIQUES STYLUS</div></h2>
+<div align="center"> 
+  <center>
+
+  <table border="0" align="center" width="95%" cellpadding="10">
+  <tr>
+    <td width="50%"><b>La dépense énergétique est totalement différente selon la discipline sportive pratiquée.<br>
+	Cette dépense est fonction du sexe, de l'age, de la durée et de l’Intensité avec laquelle on la pratique.<br><br>
+	Le tableau ci-dessous devrait vous aider a évaluer en gros ce que vous dépensez et par ce fait, vous indiquer une limite a ne pas dépasser pour ne pas commencer a grossir.<br><br>
+Gardons cependant en mémoire, que chaque individu est unique et que le résultat obtenu correspondra toujours a une approximation statistique.
+Le programme vous permettra de savoir quelle activité vous fera perdre le plus de Kilo-calorie en fonction de votre détermination <br><br>
+
+</b></td>
+
+		<TD align="center">	  
+		
+		<table border="1" align="center">
+	<tr>
+		<td>
+			   <!-- Google -->
+<div style="text-align: center">  
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-0506039216021034";
+/* Carré bordeau-vert */
+google_ad_slot = "6850626860";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+  		  
+  </div>
+  <!-- Fin Google -->
+		</td>
+	</tr>
+</table>
+
+		</TD>
+  </tr>
+</table><br><br>
+  
+    <table border="6" width="612" cellspacing="0" cellpadding="2" align="center">
+      <tr> 
+
+        <td width="450" valign="top" align="left" bgcolor="#FFFFFF"> 
+          <p align="left"></p>
+          
+<script Language="VBScript"><!--
+function FrontPage_Form1_onsubmit()
+  Set theForm = document.FrontPage_Form1
+
+  If (Len(theForm.weight.value) > 3) Then
+    MsgBox "Tapez au plus 3 caractères dans le champ ""weight"".", 0, "Erreur de validation"
+    theForm.weight.focus()
+    FrontPage_Form1_onsubmit = False
+    Exit Function
+  End If
+
+  checkOK = "0123456789-" 
+  checkStr = theForm.weight.value
+  allValid = True
+  decPoints = 0
+  allNum = ""
+  For i = 1 to len(checkStr)
+    ch = Mid(checkStr, i, 1)
+    If (InStr(checkOK, ch) = 0) Then
+        allValid = False
+        Exit For
+    End If
+    allNum = allNum & ch
+  Next
+  If (Not allValid) Then
+    MsgBox "Ne tapez que  chiffre caractères dans le champ ""weight"".", 0, "Erreur de validation"
+    theForm.weight.focus()
+    FrontPage_Form1_onsubmit = False
+    Exit Function
+  End If
+
+  If ((checkstr <> "" and Not IsNumeric(allNum)) Or (decPoints > 1)) Then
+    MsgBox "Tapez un nombre valide dans le champ ""weight"".", 0, "Erreur de validation"
+    theForm.weight.focus()
+    FrontPage_Form1_onsubmit = False
+    Exit Function
+  End If
+
+  prsVal = allNum
+  If ((prsVal <> "") And (Not (prsVal > 1))) Then
+    MsgBox "Tapez une valeur supérieure à ""1"" dans le champ ""weight"".", 0, "Erreur de validation"
+    theForm.weight.focus()
+    FrontPage_Form1_onsubmit = False
+    Exit Function
+  End If
+
+  If (theForm.minutes.value = "") Then
+    MsgBox "Tapez une valeur pour le champ ""minutes"".", 0, "Erreur de validation"
+    theForm.minutes.focus()
+    FrontPage_Form1_onsubmit = False
+    Exit Function
+  End If
+
+  If (Len(theForm.minutes.value) > 4) Then
+    MsgBox "Tapez au plus 4 caractères dans le champ ""minutes"".", 0, "Erreur de validation"
+    theForm.minutes.focus()
+    FrontPage_Form1_onsubmit = False
+    Exit Function
+  End If
+
+  checkOK = "0123456789-" 
+  checkStr = theForm.minutes.value
+  allValid = True
+  decPoints = 0
+  allNum = ""
+  For i = 1 to len(checkStr)
+    ch = Mid(checkStr, i, 1)
+    If (InStr(checkOK, ch) = 0) Then
+        allValid = False
+        Exit For
+    End If
+    allNum = allNum & ch
+  Next
+  If (Not allValid) Then
+    MsgBox "Ne tapez que  chiffre caractères dans le champ ""minutes"".", 0, "Erreur de validation"
+    theForm.minutes.focus()
+    FrontPage_Form1_onsubmit = False
+    Exit Function
+  End If
+
+  If ((checkstr <> "" and Not IsNumeric(allNum)) Or (decPoints > 1)) Then
+    MsgBox "Tapez un nombre valide dans le champ ""minutes"".", 0, "Erreur de validation"
+    theForm.minutes.focus()
+    FrontPage_Form1_onsubmit = False
+    Exit Function
+  End If
+
+  prsVal = allNum
+  If ((prsVal <> "") And (Not (prsVal > 0))) Then
+    MsgBox "Tapez une valeur supérieure à ""0"" dans le champ ""minutes"".", 0, "Erreur de validation"
+    theForm.minutes.focus()
+    FrontPage_Form1_onsubmit = False
+    Exit Function
+  End If
+  FrontPage_Form1_onsubmit = True 
+End Function
+--></script>
+
+<form method="POST" name="FrontPage_Form1">
+
+            <div align="center"> 
+              <table border="0" cellpadding="0" cellspacing="0" width="350">
+
+                <tr align="center"> 
+                  <td align="left" width="350" colspan="2"> 
+                    <p align="center"><font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF"><strong><b>&nbsp;</b></strong></font></p>
+                  </td>
+                </tr>
+                <tr align="center"> 
+                  <td align="left" width="290"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Saisissez votre poids (en Kg):</font></td>
+                  <td align="left" width="60"><font face="Arial, Helvetica, sans-serif" size="2" color="#0000A0"><strong> 
+
+
+                    <input type="text" size="3" maxlength="3" name="weight" value="0">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td align="left" width="290"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Duree 
+                    de l'effort (en minutes):</font></td>
+                  <td align="left" width="60"><font face="Arial, Helvetica, sans-serif" size="2" color="#0000A0"><strong> 
+
+
+                    <input type="text" size="4" maxlength="4" name="minutes" value="60">
+                    </strong></font></td>
+                </tr>
+              </table>
+            </div>
+            <div align="center"> 
+              <p align="center"><font face="Arial" size="2"> 
+                <input type="button" name="SubmitName" value="Calculer" onclick="compute(this.form);" style="font-family: Arial; font-size: 10 pt">
+                <input type="button" name="clear" value="Effacer" onclick="clearvalues(this.form);" style="font-family: Arial; font-size: 10 pt">
+                </font></p>
+            </div>
+            <div align="center"> 
+              <table border="0" width="350" cellspacing="0" cellpadding="2">
+                <tr> 
+                  <td width="250" align="left" bgcolor="#FDFBFB"> 
+                    <div align="center"> 
+                      <p><font size="2" face="Arial, Helvetica, sans-serif" color="#010101"><b>ACTIVITÉ 
+                        PRATIQUÉE</b></font></p>
+                    </div>
+                  </td>
+                  <td width="50" align="center" bgcolor="#02B3FF"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><b>HOMME</b></font></td>
+                  <td width="50" align="center" bgcolor="#F90DFF"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><b>FEMME</b></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="350" align="left" colspan="3"> 
+                    <p align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong>&nbsp;</strong> 
+                      </font></p>
+                  </td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Marche 
+                    4 km/h</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="marche">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="marcheF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Marche 
+                    6 km/h</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="marche1">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="marche1F">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Jogging 
+                    10 km/h</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="jogging">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="joggingF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Jogging 
+                    12.5 km/h</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="jogging1">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="jogging1F">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Jogging 
+                    15 km/h</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="jogging2">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="jogging2F">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Jogging 
+                    20 km/h</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="jogging3">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="jogging3F">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Stepper 
+                    5 étages/mn</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="stepper">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="stepperF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Stepper 
+                    10 étages/mn</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="stepper1">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="stepper1F">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Velo 
+                    20 km/h</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="velo">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="veloF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Velo 
+                    25 km/h</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="velo1">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="velo1F">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Aerobic</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="aerobic">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="aerobicF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Natation 
+                    25 m/mn</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="natation">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="natationF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Natation 
+                    40 m/mn</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="natation1">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="natation1F">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Ski 
+                    de fond 5 km/h</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="ski">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="skiF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Tennis</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="tennis">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="tennisF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Alpinisme</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="alpinisme">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="alpinismeF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Basket-ball</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="basketball">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="basketballF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Danse 
+                    rapide</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="danse">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="danseF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Lutte</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="lutte">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="lutteF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Couper 
+                    du bois</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="couper">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="couperF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Bowling</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="bowling">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="bowlingF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Musculation</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="musculation">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="musculationF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Ping-pong</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="pingpong">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="pingpongF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Aviron 
+                    300 m/mn</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="aviron">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="avironF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Football</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="football">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="footballF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Faire 
+                    les courses</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="course">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="courseF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Rester 
+                    assis</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="assis">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="assisF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Sommeil</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="sommeil">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="sommeilF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Travail 
+                    de bureau</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="bureau">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="bureauF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Conduire 
+                    une voiture</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="conduire">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="conduireF">
+                    </strong></font></td>
+                </tr>
+                <tr align="center"> 
+                  <td width="250" align="left"><font face="Arial, Helvetica, sans-serif" color="#0000A0" size="2">Bricolage, 
+                    peinture</font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="bricolage">
+                    </strong></font></td>
+                  <td width="50" align="center"><font size="2" face="Arial, Helvetica, sans-serif" color="#0000A0"><strong> 
+                    <input type="text" size="6" name="bricolageF">
+                    </strong></font></td>
+                </tr>
+              </table>
+<p>&nbsp;</p>
+            </div>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </center>
+</div>
+<br>
+
+<br>
+
+
+		
+		<!-- Fin article -->
+		</td>
+	</tr>
+</table>
+
+
+<!-- Fin Grand cadre -->
+
+
+	
+<!--DEBUT GOLD WEBORAMA<center><table>
+  <tr>
+    <td>
+	<script language="javascript">WEBO_ZONE=15;
+    WEBO_PAGE=20; webogold_ok=0;</script> <script language="javascript" src="http://script.weborama.fr/gold.js"></SCRIPT><SCRIPT>if(webogold_ok==1){webogold_zpi(WEBO_ZONE,WEBO_PAGE,38041);}</script>	</td></table>
+</P></CENTER>
+   <!--FIN GOLD WEBORAMA-->
+
+
+
+
+
+
+
+				
+</body>
+
+</html>
+

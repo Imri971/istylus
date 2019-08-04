@@ -1,0 +1,162 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ---------------------------------------------------------------------- */
+/*	Version 1200px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 1200px) {
+  .testimonials .testimonials-item {
+    font-size: 0.95em;
+  }
+  .testimonials .testimonials-item p {
+    line-height: 1.5em;
+  }
+  .news-item {
+    max-width: 220px;
+  }
+  .pricing .panel-heading:after {
+    border-width: 30px 105px 0 105px;
+  }
+  .footmenu li a {
+    padding: 0 10px;
+  }
+  .trainers-item {
+    width: 300px;
+  }
+  .classes-grid-item {
+    max-width: 220px;
+  }
+  .item-thumbnail.triangle .icons a {
+    font-size: 1em;
+  }
+  .flickr-feed li a {
+    width: 60px;
+  }
+  .tags li .btn-bordered {
+    font-size: 0.75em;
+  }
+  .bannercontainer .tp-bullets {
+    left: 20px !important;
+    margin: 0 !important;
+  }
+
+}
+/* ---------------------------------------------------------------------- */
+/*	Version 992px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 992px) {
+  header .header-bottom h1 {
+    color: #fff;
+    font-size: 1.6em;}
+
+    body{
+      padding-top: 5.5rem;
+    }
+    .navbar{
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+  .navbar .navbar-nav {
+    line-height: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .navbar .navbar-nav .dropdown .dropdown-menu li a {
+    padding: 5px 15px;
+    font-size: 1em;
+  }
+  .classes-grid-item {
+    max-width: 270px;
+  }
+  footer .footer-bottom {
+    line-height: 50px;
+  }
+  .footmenu,
+  .copy {
+    text-align: center;
+  }
+  .pricing .panel-heading:after {
+    border-width: 30px 172px 0 172px;
+  }
+  
+}
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 768px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 767px) {
+  
+  .navbar .navbar-nav {
+    float: none;
+  }
+  .navbar .navbar-nav li {
+    text-align: center;
+    width: 100%;
+  }
+  .navbar .navbar-nav li a {
+    border: none;
+    margin: 5px;
+  }
+  .navbar .navbar-nav li a:hover {
+    border: none;
+  }
+  .navbar .navbar-nav .dropdown .dropdown-menu li {
+    padding: 0 0 0 30px;
+  }
+  header .header-bottom h1 {
+    line-height: 50px;
+  }
+  .breadcrumbs {
+    line-height: 50px;
+    text-align: left;
+  }
+  .pricing .panel-heading:after {
+    border-width: 30px 130px 0 130px;
+    left: 50%;
+    margin: 0 0 0 -130px;
+  }
+  .trainers-carousel,
+  .testimonials-carousel {
+    float: none;
+  }
+  .go-top {
+    display: none!important;
+  }
+  .depcaloForm{
+    width: 100%;
+  }
+}
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 600px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 600px) {
+  .bannercontainer {
+    display: none;
+  }
+  .navbar .navbar-nav {
+    line-height: 19px !important;
+    width: 100%;
+  line-height: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.toTop{
+  right: 3px;
+}
+.toTop i {
+  font-size: 1.3rem;
+}
+
+}
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 320px
+/* ---------------------------------------------------------------------- *
+@media handheld, only screen and (max-width: 400px) 
+	.bannercontainer 
+		display none
