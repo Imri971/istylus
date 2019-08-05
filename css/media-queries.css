@@ -140,11 +140,10 @@
   .navbar .navbar-nav {
     line-height: 19px !important;
     width: 100%;
-  line-height: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
+    line-height: 0px;
+    flex-direction: column;
+    left: 37%;
+    position: relative;
 }
 .toTop{
   right: 3px;

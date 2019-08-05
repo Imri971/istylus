@@ -784,11 +784,15 @@ ul {
  *
 /****************************  $Footer Contact  ****************************/
 .foot-contact {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 .foot-contact li {
   height: 35px;
   line-height: 35px;
+}
+
+.footer a{
+  font-size: 0.975em;
 }
 /**
  *
@@ -2119,8 +2123,8 @@ a.go-top:hover {
   text-align: center;
 }
 .coach{
-  border: 3px solid #027bef;
-  border-radius: 7px;
+  border: 1px solid #027bef;
+border-radius: 3px;
   padding: 1rem 4rem;
 }
 .depcaloForm,
@@ -2245,6 +2249,13 @@ background: #EEE0FC;
 }
 .musculation ul{
   list-style-type: "- ";
+}
+
+/*Page contact*/
+
+.contact iframe{
+  width: 100%;
+  height: 440px;
 }
 /* Button to top*/
 .toTop{
