@@ -82,7 +82,8 @@
   .pricing .panel-heading:after {
     border-width: 30px 172px 0 172px;
   }
-  
+ 
+ 
 }
 /* ---------------------------------------------------------------------- */
 /*	Mobile Version 768px
@@ -128,6 +129,7 @@
   .depcaloForm{
     width: 100%;
   }
+  
 }
 /* ---------------------------------------------------------------------- */
 /*	Mobile Version 600px
@@ -151,6 +153,9 @@
 .toTop i {
   font-size: 1.3rem;
 }
+.text_about{
+  margin-bottom: 2rem !important ;
+}
 
 }
 /* ---------------------------------------------------------------------- */
@@ -158,4 +163,4 @@
 /* ---------------------------------------------------------------------- *
 @media handheld, only screen and (max-width: 400px) 
 	.bannercontainer 
-		display none
+		display non

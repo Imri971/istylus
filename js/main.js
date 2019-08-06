@@ -9,7 +9,7 @@
     }
 });
 //Page : index
-var estActif = false;
+let estActif = false;
   
 	$('.navbar-toggle').on('click', function (){
 		if (estActif){
@@ -25,16 +25,16 @@ var estActif = false;
   //Page: Poids idéal
 		function calculLorentz(lorentz) { 
 		
-		var sizeLorentz=document.lorentzForm.sizeLorentz.value; //valeur de la taille
-		var lorentzvariable;
+		let sizeLorentz=document.lorentzForm.sizeLorentz.value; //valeur de la taille
+		let lorentzletiable;
 		
 		for (i=0;i<document.lorentzForm.sexLorentz.length;i++)
 		{
 			if (document.lorentzForm.sexLorentz[i].checked==true) /*<!--si un sexe est sélectionné-->*/
-			lorentzvariable=i;
+			lorentzletiable=i;
 		}
 		
-		if (lorentzvariable ==1) /*- Si le sexe Homme est sélectionné-->*/
+		if (lorentzletiable ==1) /*- Si le sexe Homme est sélectionné-->*/
 			{
       document.lorentzForm.weightLorentz.value= (sizeLorentz-100-((sizeLorentz-150)/4)).toFixed(0); //<!--Poids idéal (Homme), Formule: H-100-((H-15)/4)-->
 			document.lorentzForm.excessiveLorentz.value= ((sizeLorentz-100-((sizeLorentz-150)/4))+(sizeLorentz-100-((sizeLorentz-150)/4))*0.1).toFixed(0); // <!--Poids excessif(Homme)-->
@@ -54,7 +54,7 @@ var estActif = false;
 		
 //*********************** */
 
-//Page: Depenses caloriques
+//Page: Depenses énergétiques
 
     function calcul(formulaire)
     {
@@ -166,20 +166,54 @@ var estActif = false;
 
     function imccalculate()
         {
-        var taille = document.imc.taille.value;
-        var poids = document.imc.poids.value;
 
-        var indice = poids/(taille*taille);
+        let taille = document.imc.taille.value;
+        let poids = document.imc.poids.value;
+
+        let indice = poids/(taille*taille);
         indice = indice.toFixed(1);
         document.imc.indice.value = indice;
+        
+        let text_imc = document.getElementById("text_imc");
+        let infos_imc = document.getElementById("infos_imc");
+     
+      if(document.imc.indice.value <= 16.5 ){
+          text_imc.innerHTML= "<i class='fas fa-exclamation-triangle'></i> Attention, un IMC de "+ document.imc.indice.value+" signifie que vous êtes en état de dénutrition.";
+          infos_imc.innerHTML= "<i class='fas fa-info-circle text-primary'></i> Visitez la page concernant <a href='energyRequirement.html'>les besoins énergétiques</a>.";
+        } else if(document.imc.indice.value > 16.5 &&  document.imc.indice.value <= 18.5){
+          text_imc.textContent=  "Un IMC de "+ document.imc.indice.value + " signifie que vous êtes maigre au sens médical du terme.";
+          infos_imc.innerHTML= "<i class='fas fa-info-circle text-primary'></i> Visitez la page concernant <a href='energyRequirement.html'>les besoins énergétiques</a>.";
+      }else if (document.imc.indice.value >18.5 && document.imc.indice.value <= 25 ){
+          text_imc.textContent = " Tout va bien, votre IMC de "+document.imc.indice.value+ " indique que vous êtes de corpulence normale.";
+      }else if (document.imc.indice.value > 25 && document.imc.indice.value <= 30){
+          text_imc.textContent = "Votre IMC de " +document.imc.indice.value+ " indique que vous commencez à être en surpoids.";
+          infos_imc.innerHTML= "<i class='fas fa-info-circle text-primary'></i> Visitez les pages concernant <a href='alimentation.html'>l' alimentation</a>, le <a href='poids.html'>poids idéal</a> et les <a href='calorie.html'>dépenses caloriques </a>.";
+      }else if (document.imc.indice.value >30 && document.imc.indice.value <= 35){
+          text_imc.innerHTML= "<i class='fas fa-exclamation-triangle'></i> Attention, un IMC de "+document.imc.indice.value+ " indique que vous entrez dans un état d'obésité modérée. Une alimentation saine et une pratique sportive sont vivement conseillés.";
+          infos_imc.innerHTML= "<i class='fas fa-info-circle text-primary'></i> Visitez les pages concernant <a href='alimentation.html'>l' alimentation</a>, le <a href='poids.html'>poids idéal</a> et les <a href='calorie.html'>dépenses caloriques </a>.";
+        }else if (document.imc.indice.value >35 && document.imc.indice.value <= 40){
+        text_imc.textContent= "Vous êtes en état d'obésité sévère avec un IMC de "+document.imc.indice.value+". Il faut consulter un médecin pour demander un traitement.";
+        infos_imc.innerHTML= "<i class='fas fa-info-circle text-primary'></i> Visitez les pages concernant <a href='alimentation.html'>l' alimentation</a>, le <a href='poids.html'>poids idéal</a> et les <a href='calorie.html'>dépenses caloriques </a>.";
+    }else if (document.imc.indice.value >40 ){
+            text_imc.textContent= "Cet IMC de "+document.imc.indice.value+ " indique un état d'obésité morbide.";
+            infos_imc.innerHTML= "<i class='fas fa-info-circle text-primary'></i> Visitez les pages concernant <a href='alimentation.html'>l' alimentation</a>, le <a href='poids.html'>poids idéal</a> et les <a href='calorie.html'>dépenses caloriques </a>.";
+        }
+      
+      else if (document.imc.indice.value == " " ) {
+          text_imc.textContent = "";
+          infos_imc.innerHTML = "";
+      }
         }
 
     function indiceclear(form)
         {
-    
-        form.indice.value = " ";
-        form.poids.value= " ";
-        form.taille.value= " ";
+        let text_imc = document.getElementById("text_imc");
+        let infos_imc = document.getElementById("infos_imc");
+        form.indice.value = "";
+        form.poids.value= "";
+        form.taille.value= "";
+        text_imc.textContent = " ";
+        infos_imc.innerHTML= "";
         }
 
 //Page: Calculateur de vitesse par km/h
@@ -196,11 +230,11 @@ var estActif = false;
         form.seconde.value=0;
     }
     
-    var et =  (form.distance.value);
+    let et =  (form.distance.value);
     // make sure we've got everything we need...
     if (et != 0 && form.distance.value.length != 0){	
         // total seconds/km
-        var t1 = et/(form.heure.value*3600+form.minute.value*60+form.seconde.value*1);
+        let t1 = et/(form.heure.value*3600+form.minute.value*60+form.seconde.value*1);
         form.vitesse.value= (t1*3600).toFixed(2);
   
         }
@@ -231,8 +265,8 @@ function compute(form)
 
 {
 
-var w=form.weight.value*2.204
-var m=form.minutes.value*1
+let w=form.weight.value*2.204
+let m=form.minutes.value*1
 
 
 form.marche.value=calculCalorie(w,m,0.0188)
@@ -375,7 +409,7 @@ form.bricolageF.value=""
 
 function calculateVitesse()
 {
-var temps = document.stride.temps.value;
+let temps = document.stride.temps.value;
     r1=(7.3829894+(temps*-0.431975)+(temps*temps*0.1394189)).toFixed(2);
     r2= (13.795573+(temps*-0.720532)+(temps*temps*0.2806044)).toFixed(2);
 
